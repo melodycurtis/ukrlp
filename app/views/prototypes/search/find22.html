@@ -22,25 +22,20 @@
 {% block content %}
 
 
-    <div class="govuk-form-group">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <h1 class="govuk-heading-xl">Which organisation do you want to register?</h1>
+
+    
+
+<div class="govuk-form-group">
   <fieldset class="govuk-fieldset" aria-describedby="dob-hint" role="group">
-
-    <div class="govuk-form-group">
-  <fieldset class="govuk-fieldset" aria-describedby="changed-name-hint">
-    <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
-      <h1 class="govuk-fieldset__heading">
-        Find a learning provider
-      </h1>
-    </legend><br>
-    <!--<span id="changed-name-hint" class="govuk-hint">
-      This includes changing your last name or spelling your name differently.
-    </span>-->
-
-
-   
-  <span id="dob-hint" class="govuk-hint">Organisation name, town, postcode or UKPRN</span>
+    
+    <span id="dob-hint" class="govuk-hint">Enter the UKPRN</span>
+  <div class="govuk-form-group">
+  <label class="govuk-label" for="width-30">
   
-  
+  </label>
    <input class="govuk-input govuk-input--width-20" id="width-20" name="width-20" type="text">&nbsp &nbsp<a href="find2" class="govuk-button" type="submit">Search</a>
 
 </div></fieldset>
@@ -49,7 +44,7 @@
 
 <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
       <h1 class="govuk-fieldset__heading">
-        Weir Training Limited
+        Elatt
       </h1>
     
 <span id="dob-hint" class="govuk-hint">
@@ -57,15 +52,17 @@ UKPRN: 87651234</span>
 
     </legend>
 
+    <span style="margin-bottom: 10px; text-align: right;padding-left: 90%"><a href="ukrlp" style="display: inline;">
+Selected</a></span>
     
 
     <br>
 
     
-<a href="#" class="govuk-button show-continue" style="display: inline;">
+
+  <a href="ukrlp" class="govuk-button show-continue" style="display: inline;">
       Continue
     </a>
-  
  
   
 </div>
